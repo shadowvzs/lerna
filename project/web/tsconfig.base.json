@@ -1,0 +1,26 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "useUnknownInCatchVariables": false,
+        "paths": {
+            "@shadowvzs/footer": [
+                "packages/@shadowvzs/footer/src"
+            ],
+            "@shadowvzs/footer/*": [
+                "packages/@shadowvzs/footer/src/*"
+            ],
+            "@shadowvzs/header": [
+                "../@shadowvzs/header/src"
+            ],
+            "@shadowvzs/header/*": [
+                "../@shadowvzs/header/src/*"
+            ],
+            "@shadowvzs/myapp": [
+                "packages/@shadowvzs/myapp/src"
+            ],
+            "@shadowvzs/myapp/*": [
+                "packages/@shadowvzs/myapp/src/*"
+            ]
+        }
+    }
+}

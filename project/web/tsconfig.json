@@ -1,0 +1,70 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "esnext",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "strict": true,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "useDefineForClassFields": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "baseUrl": ".",
+        "paths": {
+            "@shadowvzs/footer": [
+                "packages/@shadowvzs/footer/src"
+            ],
+            "@shadowvzs/footer/*": [
+                "packages/@shadowvzs/footer/src/*"
+            ],
+            "@shadowvzs/header": [
+                "packages/@shadowvzs/header/src"
+            ],
+            "@shadowvzs/header/*": [
+                "packages/@shadowvzs/header/src/*"
+            ],
+            "@shadowvzs/utility": [
+                "packages/@shadowvzs/utility"
+            ],
+            "@shadowvzs/utility/*": [
+                "packages/@shadowvzs/utility/*"
+            ],
+            "@shadowvzs/dto": [
+                "packages/@shadowvzs/dto"
+            ],
+            "@shadowvzs/dto/*": [
+                "packages/@shadowvzs/dto/*"
+            ],
+            "@shadowvzs/api": [
+                "packages/@shadowvzs/api"
+            ],
+            "@shadowvzs/api/*": [
+                "packages/@shadowvzs/api/*"
+            ],
+            "@shadowvzs/config": [
+                "packages/@shadowvzs/config"
+            ],
+            "@shadowvzs/config/*": [
+                "packages/@shadowvzs/config/*"
+            ],
+            "@shadowvzs/myapp": [
+                "packages/@shadowvzs/myapp/src"
+            ],
+            "@shadowvzs/myapp/*": [
+                "packages/@shadowvzs/myapp/src/*"
+            ]
+        }
+    }
+}
